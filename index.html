@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMI Calculator</title>
+        <script src="behavior.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Body Mass Index Calculator</h1>
+        <table id="bmiTbl">
+            <tr>
+                <td><label><h4>Weight (In kilograms):</h4></label></td>
+                <td><input type="text" id="weightTxt"></td>
+            </tr>
+            <tr>
+                <td><label><h4>Height (In metres):</h4></label></td>
+                <td><input type="text" id="heightTxt"></td>
+            </tr>
+            <tr>
+                <td><label><h4>Target Weight (In kilograms):</h4></label></td>
+                <td><label id="targetWeight"></label></td>
+            </tr>
+        </table>
+        <div id="bmiBtn"><button type="button" onclick="calculateBMI()">Calculate your BMI</button></div>
+    </body>
+</html>

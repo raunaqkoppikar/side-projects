@@ -1,0 +1,35 @@
+body{
+    background-color: orange;
+}
+h1{
+    color: green;
+    text-align: center;
+    border: none;
+}
+h4{
+    color: green;
+}
+button{
+    text-align: center;
+    margin: auto;
+}
+table{
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 13%;
+    border-style: none;
+}
+div{
+    text-align: center;
+    margin: auto;
+    display: block;
+    border-style: none;
+}
+input#weightTxt{
+    text-align: center;
+    border-style: none;
+}
+input#heightTxt{
+    text-align: center;
+    border-style: none;
+}
