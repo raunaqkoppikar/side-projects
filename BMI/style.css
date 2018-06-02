@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(127, 9, 9);
+    color: rgb(255, 179, 0);
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+}
+section{
+    border: 2px solid rgb(255, 197, 0);
+    margin: 5% 20%;
+    padding: 2%;
+    background-color: rgb(255, 197, 0);
+}
+#abstract{
+    margin: 5%;
+    padding: 2%;
+    margin-bottom: 8%;
+    background-color: rgb(127, 9, 9);
+}
+#tabular{
+    margin: 5%;
+    padding: 7%;
+    background-color: rgb(127, 9, 9);
+}
+table{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(127, 9, 9);
+}
+table tbody tr td label h4{
+    margin: 0px;
+}
+table tr td input {
+    background-color: rgb(127, 9, 9);
+    text-align: center;
+    color: rgb(255, 197, 0);
+    border-color: rgb(255, 197, 0);
+    font-family: cursive;
+}
+table tfoot th button {
+    background-color: rgb(127, 9, 9);
+    text-align: center;
+    color: rgb(255, 197, 0);
+    border-color: rgb(255, 197, 0);
+    font-family: cursive;
+}
+table tfoot th input {
+    background-color: rgb(127, 9, 9);
+    text-align: center;
+    color: rgb(255, 197, 0);
+    border-color: rgb(255, 197, 0);
+    font-family: cursive;
+}
+/*
+input#weightTxt{
+    text-align: center;
+    border-style: none;
+    background-color: rgb(127, 9, 9);
+    border-color: rgb(255, 179, 0);
+}
+input#heightTxt{
+    text-align: center;
+    border-style: none;
+    background-color: rgb(127, 9, 9);
+    border-color: rgb(255, 179, 0);
+}*/
+::placeholder{
+    color: rgb(255, 179, 0);
+    font-family: cursive;
+}

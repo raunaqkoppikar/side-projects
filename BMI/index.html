@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMI Calculator</title>
+        <script src="behavior.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section id="outbox">
+            <article id="abstract">
+                <h1>B.M.I (Body Mass Index) Calculator</h1>
+            </article>
+            <article id="tabular">
+                <table id="bmiTbl">
+                    <tbody>
+                        <tr>
+                            <td><label>Weight (In kilograms)</label></td>
+                            <td><input type="number" class="myInput" id="weightTxt" placeholder="Enter your weight" autofocus required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Height (In metres)</label></td>
+                            <td><input type="number" class="myInput" id="heightTxt" placeholder="Enter your height" autofocus required></td>
+                        </tr>
+                        <tr>
+                            <td><label>B.M.I</label></td>
+                            <td><label id="currentBMI" class="myInput"></label></td>
+                        </tr>
+                        <tr>
+                            <td><label>Target Weight (In kilograms)</label></td>
+                            <td><label id="targetWeight" class="myInput"></label></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <th>
+                            <button type="button" onclick="calculateBMI()">Calculate your BMI</button>
+                        </th>
+                        <th>
+                            <button type="reset" value="Reset" onclick="resetValues()">Reset Values</button>
+                        </th>
+                    </tfoot>
+                </table>
+            </article>
+        </section>
+    </body>
+</html>
